@@ -21,16 +21,22 @@ export default class Search extends Component {
       results: [],
     };
   }
-  handleNavigateTo(yelpId) { // TODO: pass whatever other info you want on creation page
-    this.props.navigation.navigate('Campaign');
+  handleNavigateTo(id, name, display_address, image_url) { // TODO: pass whatever other info you want on creation page
+    console.log(image_url);
+    this.props.navigation.navigate('Campaign', {
+      id,
+      name,
+      display_address,
+      image_url,
+    });
   }
-  renderResultItem(id, name, display_address) {
+  renderResultItem(id, name, display_address, image_url) {
     return (
       <TouchableHighlight
         style={styles.scrollViewItem}
         key={id}
         onPress={() => {
-          this.handleNavigateTo(id);
+          this.handleNavigateTo(id, name, display_address, image_url);
         }}
       >
         <View>
@@ -75,7 +81,7 @@ export default class Search extends Component {
           <Text style={styles.text}>Start your first campaign by finding your restaurant (powered by Yelp).</Text>
         </View> :
         <ScrollView style={styles.scrollView}>
-          {this.state.results.map((item) => this.renderResultItem(item.id, item.name, item.location.display_address))}
+          {this.state.results.map((item) => this.renderResultItem(item.id, item.name, item.location.display_address, item.image_url))}
         </ScrollView>
       }
       </View>
