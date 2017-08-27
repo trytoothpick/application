@@ -16,8 +16,8 @@ export default class App extends Component {
     super();
 
     this.state = {
-      isActive: false,
-      userType: '',
+      isActive: true,
+      userType: 'advertiser',
     };
   }
 

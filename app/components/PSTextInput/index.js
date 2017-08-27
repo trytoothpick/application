@@ -8,7 +8,7 @@ import { stylesVar } from '../../common.styles';
 
 const styles = StyleSheet.create({
   PSTextInput: {
-    height: 48,
+    height: 44,
     paddingHorizontal: 20,
     borderRadius: stylesVar.size.borderRadius,
     fontFamily: stylesVar.text.baseFamily,

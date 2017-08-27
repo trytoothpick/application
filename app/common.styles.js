@@ -6,13 +6,14 @@ export const stylesVar = {
   color: {
     accent: '#5B88F6',
     accentSecondary: '#FC8568', // "orange"
-    background: '#F1F1F4',
+    background: '#FFFFFF',
+    border: '#DDDDDD',
     text: '#363639',
     textSecondary: '#545457',
     overlay: 'rgba(0,0,0,0.6)',
   },
   size: {
-    borderRadius: 2,
+    borderRadius: 6,
     pagePadding: 16,
   },
   text: {

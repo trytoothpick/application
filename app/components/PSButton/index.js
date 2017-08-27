@@ -11,7 +11,7 @@ import { stylesVar } from '../../common.styles';
 
 const styles = StyleSheet.create({
   PSButton: {
-    height: 48,
+    height: 44,
     backgroundColor: 'transparent',
   },
   PSButtonView: {
