@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Image, ScrollView, StyleSheet, Text, TouchableHighlight, View } from 'react-native';
-import { StackNavigator } from 'react-navigation';
 import Yelp from '../../utils/yelpController';
 
 import Campaign from './Campaign';

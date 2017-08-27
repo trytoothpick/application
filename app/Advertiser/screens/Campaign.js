@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Image, StyleSheet, Text, View } from 'react-native';
-import { StackNavigator } from 'react-navigation';
 
 import { stylesVar } from '../../common.styles';
 import PSTextInput from '../../components/PSTextInput';
@@ -60,7 +59,9 @@ export default class Campaign extends Component {
           <PSButton
             style={styles.submitButton}
             title="Create Campaign"
-            onPress={() => {}}
+            onPress={() => {
+
+            }}
           />
         </View>
       </View>
