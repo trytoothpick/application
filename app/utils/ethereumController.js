@@ -7,7 +7,12 @@ const URL = 'http://localhost:8545';
 
 class Ethereum {
   constructor() {
-    // initialize web3
+    this.initWeb3();
+    // TODO: fetch ABI json from web server, init
+    // this.initContract('/.json');
+  }
+
+  initWeb3() {
     if (typeof this.web3 !== 'undefined') {
       this.web3Provider = this.web3.currentProvider;
     } else {
@@ -15,18 +20,16 @@ class Ethereum {
     }
 
     this.web3 = new Web3(this.web3Provider);
+  }
 
-    // initialize contract
-    fetch(URL + '/Adoption.json').then((data) => {
-      // // Get the necessary contract artifact file and instantiate it with truffle-contract.
-      // var AdoptionArtifact = data;
-      // App.contracts.Adoption = TruffleContract(AdoptionArtifact);
-      //
-      // // Set the provider for our contract.
-      // App.contracts.Adoption.setProvider(App.web3Provider);
-      //
-      // // Use our contract to retieve and mark the adopted pets.
-      // return App.markAdopted();    });
+  initContract(uri) {
+    fetch(URL + uri, {
+      method: 'GET',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json',
+      },
+    });
   }
 }
 
