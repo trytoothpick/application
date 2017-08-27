@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -36,6 +35,18 @@
 		2DCD954D1E0B4F2C00145EB5 /* toothpickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* toothpickTests.m */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		7D301EDFD2DF4376B70077FD /* Gibsonbold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EAE0CE7EFB5647EA9409EA34 /* Gibsonbold.ttf */; };
+		F59263E82FA045DCAA84C784 /* Gibsonbolditalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4189C4AE63554328B38C7A9C /* Gibsonbolditalic.ttf */; };
+		E1AA07514659452A825B5B38 /* Gibsonlight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5EB79BF00A6044A1873EF5AD /* Gibsonlight.ttf */; };
+		D58988AB3B224E9092ED95C7 /* Gibsonlightitalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 994E81F47E5C43F597DEF463 /* Gibsonlightitalic.ttf */; };
+		03EF7A6408A542D2958CDF6C /* Gibsonsemibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9C951102CC8449D7B266721D /* Gibsonsemibold.ttf */; };
+		5571056DBF584810BE151FD9 /* Gibsonsemibolditalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D0B370FE24C480AAC6D87A2 /* Gibsonsemibolditalic.ttf */; };
+		2B8DEE563AAC477CA78C6B03 /* GibsonBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F2BB2D82FEF4B3A9468C2DB /* GibsonBold.ttf */; };
+		FF8205BF739D418B814BA49A /* GibsonBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFBBA307EA3145E2AF8F8944 /* GibsonBoldItalic.ttf */; };
+		4102E9A403A6469F94E50171 /* GibsonLightBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 52FAAFA1D3EF4E32B35D196D /* GibsonLightBold.ttf */; };
+		0CAF36798C664153AE79A0AD /* GibsonLightBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1154C59159B4467AE44FA75 /* GibsonLightBoldItalic.ttf */; };
+		8781A9AFAB3A4863A25B8D42 /* GibsonLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49245ABC59F6404C853097BE /* GibsonLightItalic.ttf */; };
+		C274C283B1864D9BAAA2AD26 /* GibsonLightRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C0C83EB9A714C82BDFA3220 /* GibsonLightRegular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -255,6 +266,18 @@
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		EAE0CE7EFB5647EA9409EA34 /* Gibsonbold.ttf */ = {isa = PBXFileReference; name = "Gibsonbold.ttf"; path = "../app/static/fonts/Gibson/Gibsonbold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4189C4AE63554328B38C7A9C /* Gibsonbolditalic.ttf */ = {isa = PBXFileReference; name = "Gibsonbolditalic.ttf"; path = "../app/static/fonts/Gibson/Gibsonbolditalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5EB79BF00A6044A1873EF5AD /* Gibsonlight.ttf */ = {isa = PBXFileReference; name = "Gibsonlight.ttf"; path = "../app/static/fonts/Gibson/Gibsonlight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		994E81F47E5C43F597DEF463 /* Gibsonlightitalic.ttf */ = {isa = PBXFileReference; name = "Gibsonlightitalic.ttf"; path = "../app/static/fonts/Gibson/Gibsonlightitalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9C951102CC8449D7B266721D /* Gibsonsemibold.ttf */ = {isa = PBXFileReference; name = "Gibsonsemibold.ttf"; path = "../app/static/fonts/Gibson/Gibsonsemibold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0D0B370FE24C480AAC6D87A2 /* Gibsonsemibolditalic.ttf */ = {isa = PBXFileReference; name = "Gibsonsemibolditalic.ttf"; path = "../app/static/fonts/Gibson/Gibsonsemibolditalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1F2BB2D82FEF4B3A9468C2DB /* GibsonBold.ttf */ = {isa = PBXFileReference; name = "GibsonBold.ttf"; path = "../app/static/fonts/Gibson/GibsonBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DFBBA307EA3145E2AF8F8944 /* GibsonBoldItalic.ttf */ = {isa = PBXFileReference; name = "GibsonBoldItalic.ttf"; path = "../app/static/fonts/Gibson/GibsonBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		52FAAFA1D3EF4E32B35D196D /* GibsonLightBold.ttf */ = {isa = PBXFileReference; name = "GibsonLightBold.ttf"; path = "../app/static/fonts/Gibson/GibsonLightBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B1154C59159B4467AE44FA75 /* GibsonLightBoldItalic.ttf */ = {isa = PBXFileReference; name = "GibsonLightBoldItalic.ttf"; path = "../app/static/fonts/Gibson/GibsonLightBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		49245ABC59F6404C853097BE /* GibsonLightItalic.ttf */ = {isa = PBXFileReference; name = "GibsonLightItalic.ttf"; path = "../app/static/fonts/Gibson/GibsonLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8C0C83EB9A714C82BDFA3220 /* GibsonLightRegular.ttf */ = {isa = PBXFileReference; name = "GibsonLightRegular.ttf"; path = "../app/static/fonts/Gibson/GibsonLightRegular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -467,6 +490,7 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* toothpickTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
+				EF8FBB2FC7EC45A8ADFAC224 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -482,6 +506,26 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		EF8FBB2FC7EC45A8ADFAC224 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				EAE0CE7EFB5647EA9409EA34 /* Gibsonbold.ttf */,
+				4189C4AE63554328B38C7A9C /* Gibsonbolditalic.ttf */,
+				5EB79BF00A6044A1873EF5AD /* Gibsonlight.ttf */,
+				994E81F47E5C43F597DEF463 /* Gibsonlightitalic.ttf */,
+				9C951102CC8449D7B266721D /* Gibsonsemibold.ttf */,
+				0D0B370FE24C480AAC6D87A2 /* Gibsonsemibolditalic.ttf */,
+				1F2BB2D82FEF4B3A9468C2DB /* GibsonBold.ttf */,
+				DFBBA307EA3145E2AF8F8944 /* GibsonBoldItalic.ttf */,
+				52FAAFA1D3EF4E32B35D196D /* GibsonLightBold.ttf */,
+				B1154C59159B4467AE44FA75 /* GibsonLightBoldItalic.ttf */,
+				49245ABC59F6404C853097BE /* GibsonLightItalic.ttf */,
+				8C0C83EB9A714C82BDFA3220 /* GibsonLightRegular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -564,7 +608,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 610;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -841,6 +885,18 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				7D301EDFD2DF4376B70077FD /* Gibsonbold.ttf in Resources */,
+				F59263E82FA045DCAA84C784 /* Gibsonbolditalic.ttf in Resources */,
+				E1AA07514659452A825B5B38 /* Gibsonlight.ttf in Resources */,
+				D58988AB3B224E9092ED95C7 /* Gibsonlightitalic.ttf in Resources */,
+				03EF7A6408A542D2958CDF6C /* Gibsonsemibold.ttf in Resources */,
+				5571056DBF584810BE151FD9 /* Gibsonsemibolditalic.ttf in Resources */,
+				2B8DEE563AAC477CA78C6B03 /* GibsonBold.ttf in Resources */,
+				FF8205BF739D418B814BA49A /* GibsonBoldItalic.ttf in Resources */,
+				4102E9A403A6469F94E50171 /* GibsonLightBold.ttf in Resources */,
+				0CAF36798C664153AE79A0AD /* GibsonLightBoldItalic.ttf in Resources */,
+				8781A9AFAB3A4863A25B8D42 /* GibsonLightItalic.ttf in Resources */,
+				C274C283B1864D9BAAA2AD26 /* GibsonLightRegular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

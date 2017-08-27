@@ -30,8 +30,7 @@ const styles = StyleSheet.create({
   PSButtonText: {
     paddingHorizontal: 8,
     color: 'white',
-    // fontFamily: 'Rubik-Medium',
-    fontWeight: 'bold',
+    // fontFamily: 'GibsonBold',
   },
 });
 
