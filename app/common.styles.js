@@ -4,7 +4,7 @@ const IOS_SB_HEIGHT = 20;
 
 export const stylesVar = {
   color: {
-    accent: '#5B88F6',
+    accent: '#FF5F6D',
     accentSecondary: '#FC8568', // "orange"
     background: '#FFFFFF',
     border: '#DDDDDD',
